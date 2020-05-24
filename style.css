@@ -4,6 +4,40 @@ body{
     padding: 100px;
 }
 
-.login-area{
+.form_area{
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    color: black;
 
+}
+
+#transection_area{
+    display: none;
+    color: white;
+    text-align: center;
+
+}
+.deposit,.withdraw,.balance{
+    padding: 32px;
+    border-radius: 10px;
+    margin: 0px 120px;
+}
+
+.deposit{
+    background-color: slateblue;
+
+}
+
+.withdraw{
+    background-color: lightsalmon;
+}
+
+.balance{
+    background-color: orange;
+}
+
+.text_style{
+    font-weight: bold;
 }
